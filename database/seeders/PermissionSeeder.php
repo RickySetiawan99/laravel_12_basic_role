@@ -106,7 +106,7 @@ class PermissionSeeder extends Seeder
             'guard_name'    => 'web',
         ]);
         Permission::updateOrCreate(
-            ['name'          => 'users-force-delete'],
+            ['name'          => 'users-force_delete'],
             [
             'guard_name'    => 'web',
         ]);
